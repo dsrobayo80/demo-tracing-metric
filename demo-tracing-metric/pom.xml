@@ -64,6 +64,13 @@
             <scope>compile</scope>
         </dependency>
 
+        <!--For Loki-->
+        <dependency>
+            <groupId>com.github.loki4j</groupId>
+            <artifactId>loki-logback-appender</artifactId>
+            <version>1.4.2</version>
+        </dependency>
+
     </dependencies>
 
     <build>

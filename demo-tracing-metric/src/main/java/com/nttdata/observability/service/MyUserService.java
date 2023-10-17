@@ -33,8 +33,6 @@ public class MyUserService {
     return "David-" + getNumber();
   }
 
-
-  @Timed(value = "david.metric.name", description = "Custom metric description")
   private int getNumber() {
     try {
       Thread.sleep(2000); // simulates latency
